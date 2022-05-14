@@ -11,23 +11,21 @@
   <body>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand mb-0 h1" href="../htmls/index.html">Ana Sayfa</a>
+      <a class="navbar-brand mb-0 h1" href="index.html">Ana Sayfa</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="../htmls/ozgecmis.html">Öz Geçmiş</a>
+            <a class="nav-link" href="ozgecmis.html">Öz Geçmiş</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../htmls/sehrim.html">Şehrim</a>
+            <a class="nav-link" href="sehrim.html">Şehrim ve Mirası</a>
           </li>
+         
           <li class="nav-item">
-            <a class="nav-link" href="../htmls/miras.html">Şehrimin Mirası</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../htmls/iletisim.html">İletişim</a>
+            <a class="nav-link" href="iletisim.html">İletişim</a>
           </li>
         </ul>
         <li class="nav-item" style="list-style: none;">
@@ -47,7 +45,7 @@
       }
       else{
         echo "Kullanıcı epostası yada şifre hatalı";
-        header("refresh:2; login.html");
+        header("refresh:2;./login.html");
       }    
         ?>
         </div>
