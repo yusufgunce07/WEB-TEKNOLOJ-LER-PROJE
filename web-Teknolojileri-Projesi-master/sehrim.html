@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sehrim.css">
+    <!-- BOOSTRAP LİNK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Şehrim</title>
+</head>
+<body>
+  <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand mb-0 h1" href="index.html">Ana Sayfa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="ozgecmis.html">Öz Geçmiş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sehrim.html">Şehrim ve Mirası</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+        <li class="nav-item" style="list-style: none;">
+          <a class="nav-link" style="color: white;" href="login.html">Giriş</a>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./pictures/sehrim/circir.jpg" class="d-block w-100" alt="" style="height: 900px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>HASANKEYF</h5>
+          <p>Asırların beşiği...</p>
+        </div>
+      </div>
+     
+      <div class="carousel-item">
+        <img src="./pictures/sehrim/hıyırbey.jpg" class="d-block w-100" alt="..." style="height: 900px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>HIDIR BEY CAMİ</h5>
+          <p>Güneydoğu Anadolu’nun köklü geçmişinden küçük bir izdir</p>
+         
+        
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./pictures/sehrim/kara_leylek3.jpeg" class="d-block w-100" alt="..." style="height: 900px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>MOR KİRYAKUS MANASTIRI</h5>
+          <p>Turabidin bölgesinin en uç noktasındaki Mor Kiryakus manastırı</p>
+         
+        </div>
+      
+      </div>
+      <div class="carousel-item">
+        <img src="./pictures/sehrim/hazarbaba.jpg" class="d-block w-100" alt="..." style="height: 900px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>MALABADİ KÖPRÜSÜ</h5>
+          <p>Taş kemerı en geniş köprüdür...</p>
+        </div>
+      </div>
+    </div>
+    <button id="geri" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button id="ileri" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <header id="headerSection">
+    <div class="overlay">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col my-auto">
+                    <h1 class="display-3 text-white" ></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+
+  <section id="ref"  class=" text-white ">
+    <div id="box" class="container bg-dark  border border-success rounded shadow-lg">
+      <div class="row my-3 ">
+        <div class="col-lg-6 my-4">
+          <article>
+            <h2 id="yerismi"></h2>
+            <p id="description"></p>
+          </article>
+        </div>
+        <div class="col-lg-6 my-4">
+          <img id="resim" class="img-fluid rounded" >
+          <div class="my-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe id="konum" class="embed-responsive-item" style="float:left; height: 250px; width: 530px;" ></iframe>
+            </div>              
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+  </section>
+
+
+  <section id="ref"  class=" text-white ">
+    <div id="box" class="container bg-dark  border border-success rounded shadow-lg">
+      <div class="row my-3 ">
+        <div class="col-lg-12 ">
+          <article>
+            <h1 >BATMAN</h1>
+            <P>Batman, Türkiye Cumhuriyeti'nin Güneydoğu Anadolu Bölgesinde yer alan bir ildir.İl Nüfusu: 620.278'dur. </P>
+            <h2>Etimoloji</h2>
+            <p>Batman tarihi itibarıyla yeni bir şehir olmasına karşın yerleşim alanında kurulan şehirlerin tarihi Sümerlere kadar uzanır. İluh Tepesi'nin bulunduğu alanda bir Sümer şehir yerleşiminin bulunduğu, ancak bataklık bir arazi üzerine kurulu olduğundan şehrin zaman içerisinde yeraltına göçtüğü düşünülmektedir. Ayrıca İluh Tepesi olarak adlandırılan Arazi, araştırmalar sonucunda doğal olmadığı ve yapay bir tepe olduğu kanıtlanmıştır. Batman'ın adını "batmak" teriminden bu nedenle almış olabileceği düşünülmektedir. 1940 yılında Batman civarında petrol bulunmuştur.</p>
+            <h2>Ekonomi</h2>
+            <p>
+              >Doğu şehirlerinin birçoğunda olduğu gibi Batman'da da ekonomi genel olarak tarım ve hayvancılık üzerine bulunmaktadır. Son yıllarda Organize Sanayi Bölgesi'nde yaşanan genişleme ile birlikte yüzlerce yeni tekstil işletmesinin açıldığı şehirde, Batman Ticaret ve Sanayi Odası (BATSO) verilerine göre 9 bin kişi tekstil atölyelerinde çalışmaktadır. Yine BATSO verilerine göre, şehirdeki Organize Sanayi Bölgesi'nde 55 işletme bulunuyor.Türkiye'nin ilk petrol çıkarılan şehri olan Batman'da Batman Rafinerisi bulunmakta ve burada da 400'ü aşkın kişi çalışmaktadır.TÜİK verilerine göre, yüzde 30,9 ile Türkiye'de işsizliğin en yüksek olduğu bölgede yer alan şehirler Mardin, Batman, Şırnak, Siirt'tir.</p>     
+          </p>     
+          </article>           
+        </div>
+      </div>
+    </div> 
+    <br>
+    <br>
+  </section>
+
+
+
+  <section id="ref"  class=" text-white ">
+    <div id="box" class="container bg-dark  border border-success rounded shadow-lg">
+      <div class="row my-3 ">
+        <div class="col-lg-6 my-4">
+          <article>
+            <h2>BATMAN Gezebileceğiniz Tarihi Alanları</h2>
+            <ul>
+            <li>Hasankeyf</li>
+            <li>Hallan Çemi Höyüğü</li>
+            <li>Kandil Kalesi</li>
+            </ul>
+            <ul>
+            <li>Mor Aho Manastırı</li>
+            <li>Mor Kinyikus Manastırı</li>
+            <li>Malabadi Köprüsü</li>
+            <li>Bozikan Kalesi</li>
+
+             </ul>
+          </article>
+        </div>
+        <div class="col-lg-6 my-4">
+          <h2>BATMAN'da Tadabileceğiniz Yöresel Yemekler ve İçecekler</h2>
+          <ul>
+            <li>Güveç</li>
+            <li>Mehîr</li>
+            <li>İçli köfte (kutilk)</li>
+            <li>Sac böreği (şamborek)</li>
+            <li>İmam bayıldı (buxenûç)</li>
+            <li>Mirtoxî</li>
+            <li>Gebol</li>
+            <li>Avşork</li> </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+    <script src="./js/sehrim.js"></script>
+</body>
+</html>
