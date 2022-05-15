@@ -18,7 +18,7 @@ Bootstrap
 #########
 Proje Detayları:
 
-  Bu projede amaç yukarıdaki bahsi geçen teknolojilerdeki tecrübemi arttırmak amacıyla kişisel web sitesi yapılmasıdır.Söz konusu sitede giriş niteliğinde kendimi tanıttığım bir hakkımda sayfası , cv niteliğinde eğitim sayfası , memleketim olan BATMAN'ın nüfusu, ünlülüeri, gezilecek yerleri gibi özelliklerini anlatan ve sayfa başında slider ile anlatılan konular hakkında grafikler ve resimler bulunacağı şehrim sayfası , BATMAN'ın kültürel mirasını anlatan ve tüm HTML elemanlarını içeren mirasımız sayfası , PHP ile girilen şifre kullanıcı adı gibi değişkenleri regex ve HTML5 ile düzenleneceği ve  doğrulanınca bir admin sayfasına yönlendirileceği login sayfası bulunacaktır.
+  Bu projede amaç yukarıdaki bahsi geçen teknolojilerdeki tecrübemi arttırmak amacıyla kişisel web sitesi yapılmasıdır.Söz konusu sitede giriş niteliğinde kendimi tanıttığım bir hakkımda sayfası ,api olarak hava durumu apisi çektiğim kısım, cv niteliğinde eğitim sayfası , memleketim olan BATMAN'ın nüfusu, tarihi yerleri gibi özelliklerini anlatan ve sayfa başında slider ile anlatılan konular hakkında grafikler ve resimler bulunacağı şehrim ve Mıirasım sayfası , PHP ile girilen şifre kullanıcı adı gibi değişkenleri regex ve HTML5 ile düzenleneceği ve  doğrulanınca bir admin sayfasına yönlendirileceği login sayfası bulunacaktır.
   
 
 Sayfalar arası geçiş bir navigasyon barı ile yapılacaktır.Site responsive yapıda olması planlanmaktadır .
