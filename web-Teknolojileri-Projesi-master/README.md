@@ -24,7 +24,7 @@ Proje Detayları:
 Sayfalar arası geçiş bir navigasyon barı ile yapılacaktır.Site responsive yapıda olması planlanmaktadır .
 
 
-Sayfanın canlı haline adres çubuğuna "https://b201210089bb.000webhostapp.com/" yazarak ulaşabilirsiniz.
+Sayfanın canlı haline adres çubuğuna "https://b201210089web.000webhostapp.com/" yazarak ulaşabilirsiniz.
 Yusuf GÜNCE
 
 
